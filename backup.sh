@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Author: Aditya Kadu
+
 #Asking file as an argument in CLI
 
 echo "Enter filename"
