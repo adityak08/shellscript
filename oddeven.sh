@@ -8,9 +8,9 @@ echo "Enter a number"
 read num
 
 
-if [ $num%2 == 0 ]
+if [ `expr $num % 2` == 0 ];
 then
-	echo "The number is even"
+	echo "The number $nnum is even"
 else
-	echo "The number is odd"
+	echo "The number $num is odd"
 fi
