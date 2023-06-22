@@ -16,8 +16,8 @@ fi
 
 #Backup Command
 
-echo "Backup in progress"
+echo "Backup in progress..."
 
-cp -p $file $file,`date -I`
+cp -p $file $file- $(date +"%d-%m-%y-%H-%M-%S")
 
-echo "Backup created with date"
+echo "Backup created with date and timestamp!!!"
